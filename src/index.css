@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app{
+  background: #012135;
+  background-size: cover;
+}
+
+.wrong{
+  border: solid 1px red;
+  color: red;
+}
+.correct{
+  border: solid 1px #5FC0DA;
+  color:  #5FC0DA;
+}
