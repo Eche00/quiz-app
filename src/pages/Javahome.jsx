@@ -22,18 +22,22 @@ function Java() {
         <h3 className=" sm:text-4xl text-2xl pt-16 font-bold text-[#5FC0DA]">
           Choose from levels below <ArrowDownward />
         </h3>
-        <div className=" flex flex-col  justify-center items-center gap-10 py-20 ">
+        <div className=" flex flex-col  justify-center items-center gap-10 py-20">
           <Link to="/javaeasy">
             <button className="  w-[80px] h-[70px]   px-32 py-5 flex items-center justify-center  rounded-lg shadow-md shadow-gray-400 bg-[#5FC0DA] sm:text-7xl text-4xl text-black">
               Easy
             </button>
           </Link>
-          <button className=" w-[80px] h-[70px] sm:w-fit sm:px-10   px-32 py-5 flex items-center justify-center  rounded-lg shadow-md shadow-gray-400 bg-[#5FC0DA] sm:text-7xl text-4xl text-black">
-            Intermediate
-          </button>
-          <button className="  w-[80px] h-[70px]   px-32 py-5 flex items-center justify-center  rounded-lg shadow-md shadow-gray-400 bg-[#5FC0DA] sm:text-7xl text-4xl text-black">
-            Hard
-          </button>
+          <Link to="/javainter">
+            <button className=" w-[80px] h-[70px] sm:w-fit sm:px-10   px-32 py-5 flex items-center justify-center  rounded-lg shadow-md shadow-gray-400 bg-[#5FC0DA] sm:text-7xl text-4xl text-black">
+              Intermediate
+            </button>
+          </Link>
+          <Link to="/javahard">
+            <button className="  w-[80px] h-[70px]   px-32 py-5 flex items-center justify-center  rounded-lg shadow-md shadow-gray-400 bg-[#5FC0DA] sm:text-7xl text-4xl text-black">
+              Hard
+            </button>
+          </Link>
         </div>
       </div>
     </div>
